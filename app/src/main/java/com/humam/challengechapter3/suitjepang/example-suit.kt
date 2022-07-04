@@ -18,6 +18,7 @@ fun main() {
     var komputer = pilihan.random()
 
 //    Masukkan nama player
+
     println("Kenalan dulu ya... Siapa nama kamu nih?")
     var namaPlayer = readLine()
     println("Hi, $namaPlayer !! Selamat datang...")
