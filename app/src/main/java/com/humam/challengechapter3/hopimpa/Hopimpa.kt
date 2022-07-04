@@ -4,32 +4,27 @@ import com.humam.challengechapter3.hopimpa.utils.playerPick
 import kotlin.system.exitProcess
 
 class Hopimpa {
-    companion object{
-        @JvmStatic
-        fun main(args: Array<String>) {
-            headerGame()
+
+        fun GameHopimpa() {
+            println("""
+                |========================
+                |Game Hopimpa Terminal
+                |========================
+                | Pilih antara Putih dan Hitam :  
+                |""".trimMargin())
             playerPick().player1Pick()
-            playAgain()
+            playAgainHopimpa()
         }
 
-        private fun headerGame() {
-            println("=========================")
-            println("Game Hopimpa Terminal")
-            println("=========================")
-            println("Pilih antara Putih dan Hitam")
-            println("Mulai Bermain : ")
-        }
-
-        private fun playAgain() {
+        fun playAgainHopimpa() {
             println()
-            println("Apakah kamu ingin bermain lagi? (y/n) :")
+            println("Apakah kamu ingin bermain Hopimpa lagi? (y/n) :")
             if (readLine()?.lowercase() == "y") {
-                main(arrayOf())
-            } else {
+                GameHopimpa()
+            }  else {
                 println("Terima kasih sudah bermain")
                 println("=========================")
                 exitProcess(0)
             }
         }
     }
-}
