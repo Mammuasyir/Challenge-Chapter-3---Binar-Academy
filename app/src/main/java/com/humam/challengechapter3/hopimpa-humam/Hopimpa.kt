@@ -1,6 +1,6 @@
-package com.humam.challengechapter3.hopimpa
+package com.humam.challengechapter3.`hopimpa-humam`
 
-import com.humam.challengechapter3.hopimpa.utils.playerPick
+import com.humam.challengechapter3.`hopimpa-humam`.utils.playerPickHopimpa
 import kotlin.system.exitProcess
 
 class Hopimpa {
@@ -12,7 +12,7 @@ class Hopimpa {
                 |========================
                 | Pilih antara Putih dan Hitam :  
                 |""".trimMargin())
-            playerPick().player1Pick()
+            playerPickHopimpa().player1Pick()
             playAgainHopimpa()
         }
 

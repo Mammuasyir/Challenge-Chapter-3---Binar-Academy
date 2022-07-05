@@ -1,4 +1,4 @@
-package com.humam.challengechapter3.hopimpa.utils
+package com.humam.challengechapter3.`hopimpa-humam`.utils
 
 class RumusHopimpa{
 

@@ -1,10 +1,10 @@
-package com.humam.challengechapter3.hopimpa.utils
+package com.humam.challengechapter3.`hopimpa-humam`.utils
 
 lateinit var inputPlayer1: String
 lateinit var inputPlayer2: String
 lateinit var inputPlayer3: String
 
-class playerPick {
+class playerPickHopimpa {
 
     fun player1Pick(){
         print("Player 1 silahkan pilih : ")

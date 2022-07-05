@@ -1,19 +1,19 @@
-package com.humam.challengechapter3.hopimpa
+package com.humam.challengechapter3.`hopimpa-humam`
 
-import com.humam.challengechapter3.hopimpa.utils.playerPick
+import com.humam.challengechapter3.`suitJepang-triman`.utils.playerPickSuit
 import kotlin.system.exitProcess
 
-class GJepang {
+class suitJepang {
 
         fun GameJepang() {
             println("""
                 |========================
-                |Game Jepang Terminal
+                |Game Suit Jepang Terminal
                 |========================
                 | Pilih antara Batu, Gunting dan Kertas :  
                 |""".trimMargin())
-            playerPick().player1Pick()
-            playAgainjepang()
+            playerPickSuit().player1Pick()
+            playAgainJepang()
         }
 
         fun playAgainJepang() {
