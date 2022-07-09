@@ -21,10 +21,13 @@ class Hopimpa {
             println("Apakah kamu ingin bermain Hopimpa lagi? (y/n) :")
             if (readLine()?.lowercase() == "y") {
                 GameHopimpa()
-            }  else {
+            }  else if (readLine()?.lowercase() == "n"){
                 println("Terima kasih sudah bermain")
                 println("=========================")
                 exitProcess(0)
+            } else {
+                println("Pilihan tidak ada, silahkan ulangi")
+                playAgainHopimpa()
             }
         }
     }
